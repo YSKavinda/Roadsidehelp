@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/serviceProviderItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+    android:background="#DAF2F8"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    >
+    <ImageView
+        android:id="@+id/spImageThumbnail"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/baseline_car_repair_24_black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/spItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Service Provider Tite"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/spItemContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:text="076XXXXXXX"
+            android:textAlignment="textStart"
+            android:paddingHorizontal="20dp"
+          />
+        <TextView
+            android:id="@+id/spItemStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="available"
+            android:textColor="@color/gray"
+            android:textAlignment="textStart"
+            android:paddingHorizontal="20dp"
+            />
+        <Button
+            android:id="@+id/spItemTrack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/li_blue"
+            android:textSize="16sp"
+            android:text="Get Directions"
+            android:drawableRight="@drawable/baseline_assistant_direction_24"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingHorizontal="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="0dp"
+    tools:context="com.codevibe.roadsidehelp_client.HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        >
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:iss_auto_cycle="true"
+            app:iss_period="1000"
+            app:iss_delay="1000"
+            app:iss_text_align="CENTER"
+            app:iss_corner_radius="20"
+            app:iss_title_background="@drawable/gradient"
+
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/welcomeText"
+        app:layout_constraintStart_toEndOf="@+id/welcomeText" />
+
+    <ImageView
+        android:id="@+id/view"
+        android:layout_width="77dp"
+        android:layout_height="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/baseline_doorbell_24"
+        android:visibility="invisible"
+        android:backgroundTint="@color/blue"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <Button
+            android:id="@+id/buttongotoVehicles"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/blue"
+            android:drawableTop="@drawable/steering_wheel"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="@string/vehicles" />
+
+        <Button
+            android:id="@+id/buttonGoToServices"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/blue"
+            android:drawableTop="@drawable/service"
+            android:text="@string/services" />
+
+        <Button
+            android:id="@+id/buttongotoTowTrucks"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:backgroundTint="@color/blue"
+            android:drawableTop="@drawable/shipping"
+            android:text="@string/tow_trucks"
+           />
+    </LinearLayout>
+
+
+
+<!--            <Button-->
+<!--                android:id="@+id/buttongotoMechanics"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/mechanics"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:drawableTop="@drawable/service"-->
+<!--                android:enabled="false"-->
+<!--                android:tag="@string/coming_soon"-->
+<!--                />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/buttongotoTires"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/tire_centers"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:textSize="11sp"-->
+<!--                android:drawableTop="@drawable/baseline_car_repair_24"-->
+<!--                android:enabled="false"-->
+<!--                android:tag="@string/coming_soon"-->
+<!--                />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/buttongotoBatteries"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/batteries"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:drawableTop="@drawable/_72578_battery_car_battery_icon"-->
+<!--                android:enabled="false"-->
+<!--                android:tag="@string/coming_soon"-->
+<!--                 />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

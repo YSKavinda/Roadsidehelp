@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/reg_vehicle_model"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Vehicle Model"/>
+    <EditText
+        android:id="@+id/reg_vehicle_license"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="License No"/>
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:padding="20dp"
+        android:layout_margin="10dp"/>
+    <ImageButton
+        android:id="@+id/vehicleImageSelector"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="fitCenter"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="20dp"
+        >
+        <Button
+            android:id="@+id/regVehicleExit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:backgroundTint="@color/red"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="end"/>
+        <Button
+            android:id="@+id/regVehicleReg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_gravity="start"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

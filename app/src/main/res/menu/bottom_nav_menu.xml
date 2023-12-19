@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottomHome"
+        android:title="@string/bottom_nav_home_title"
+        android:icon="@drawable/home" />
+    <item
+        android:id="@+id/bottomMap"
+        android:title="@string/bottom_nav_map_title"
+        android:icon="@drawable/map" />
+    <item
+        android:id="@+id/bottomEmergency"
+        android:title="@string/bottom_nav_emergency_title"
+        android:icon="@drawable/emergency" />
+    <item
+        android:id="@+id/bottomCustomerCare"
+        android:title="CustomerCare"
+        android:icon="@drawable/customer_support_icon" />
+</menu>

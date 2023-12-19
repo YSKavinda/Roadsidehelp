@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085364765968",
+    "project_id": "roadsidehelp-bfe13",
+    "storage_bucket": "roadsidehelp-bfe13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085364765968:android:0eadb0527bb9e6fc495195",
+        "android_client_info": {
+          "package_name": "com.codevibe.roadsidehelp_client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_rL9nuVdUm7OoOSIZZo9Se8EflS6o_DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

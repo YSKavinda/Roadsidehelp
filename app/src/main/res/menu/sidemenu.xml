@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sideNavHome"
+        android:title="@string/bottom_nav_home_title"
+        android:icon="@drawable/home"
+        android:checked="true" />
+    <item
+        android:id="@+id/sideNavUserProfile"
+        android:title="User Profile"
+        android:icon="@drawable/baseline_supervised_user_circle_24" />
+    <item
+        android:id="@+id/sideNavCustomerCare"
+        android:title="CustomerCare"
+        android:icon="@drawable/customer_support_icon" />
+
+    <item
+        android:id="@+id/sideNavVehicles"
+        android:title="@string/vehicles"
+        android:icon="@drawable/vehicle_default" />
+
+    <item
+        android:id="@+id/sideNavMap"
+        android:title="@string/bottom_nav_map_title"
+        android:icon="@drawable/map" />
+
+    <item
+        android:id="@+id/sidNavemergency"
+        android:title="@string/bottom_nav_emergency_title"
+        android:icon="@drawable/emergency" />
+
+
+
+    <group android:id="@+id/userloggedIngroup">
+
+        <item
+            android:id="@+id/sideNavLogout"
+            android:title="@string/bottom_nav_logout_title"
+            android:icon="@drawable/logout"
+            android:visible="true" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RoadSideHelpClient" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+        <item name="colorSecondary">@color/li_blue</item>
+    </style>
+
+    <style name="Theme.RoadSideHelpClient" parent="Base.Theme.RoadSideHelpClient" />
+
+    <style name="Theme.RoadSideHelpClient.Fullscreen" parent="Theme.RoadSideHelpClient">
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

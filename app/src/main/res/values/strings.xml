@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RoadSideHelp-Client</string>
+    <string name="bottom_nav_home_title">Home</string>
+    <string name="bottom_nav_map_title">Map</string>
+    <string name="bottom_nav_emergency_title">Emergency</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    <string name="bottom_nav_login_title">Login</string>
+    <string name="bottom_nav_logout_title">Logout</string>
+    <string name="bottom_nav_reg_title">Register</string>
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t Have an Account? Sign Up</string>
+    <string name="forgot_password_click_here">Forgot Password? Click Here</string>
+    <string name="register">Register</string>
+    <string name="already_have_a_account_sign_in">already have a account? sign in!</string>
+    <string name="coming_soon">coming soon</string>
+    <string name="welcome">Welcome</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="tire_centers">Tire Centers</string>
+    <string name="tow_trucks">Tow Trucks</string>
+    <string name="mechanics">Mechanics</string>
+    <string name="batteries">Batteries</string>
+    <string name="services">Services</string>
+
+</resources>
